@@ -1,0 +1,20 @@
+{
+  "name": "ejs_practice",
+  "version": "1.0.0",
+  "description": "task manager",
+  "main": "app.js",
+  "scripts": {
+    "run": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3rANd00n/EJS_PRACTICE.git"
+  },
+  "author": "Brandon Thomas Murray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3rANd00n/EJS_PRACTICE/issues"
+  },
+  "homepage": "https://github.com/3rANd00n/EJS_PRACTICE#readme"
+}
