@@ -6,11 +6,8 @@ require('dotenv').config();
 
 const port = 3000;
 
+app.use(express.static('./public'))
 app.use(express.json());
-
-app.get('/', (req, res) => {
-    res.send('Welcome to my Task Manager Project');
-});
 
 app.use('/api/v1/tasks', tasks);
 
